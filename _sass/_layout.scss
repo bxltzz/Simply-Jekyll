@@ -1,0 +1,68 @@
+html, body {
+  // CSS margin/padding reset
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-content {
+  margin: 50px 10%;
+  font-family: $content-font-family;
+}
+
+.site-header, .site-footer {
+  text-align: center;
+  background-color: #e9e9e9;
+}
+
+.site-header {
+  padding-top: 5px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.site-footer {
+  padding: 5px 0;
+  border-top: 1px solid #bfbfbf;
+}
+
+.site-header {
+  .site-title {
+    font-size: 2.5em;
+  }
+  a {
+    color: $base-font-color;
+  }
+	text-align: center;
+}
+
+.page-heading {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.post-meta {
+  color: #777;
+  font-style: italic;
+}
+
+.site-nav {
+  border-top: 1px solid #bfbfbf;
+  background-color: #f0f0f0;
+  display: block;
+  margin-top: 10px;
+  a {
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #bfbfbf;
+  }
+  a:last-child {
+    border-right: none;
+  }
+  a:hover {
+    background-color: #e0e0e0;
+  }
+}
+
+.post-link2 {
+  border-bottom: 1px solid #bfbfbf;
+}
+ 

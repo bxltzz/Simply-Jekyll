@@ -1,0 +1,11 @@
+title: Simply Jekyll
+description: This is a simple motherfucking jekyll theme
+baseurl: ""
+url: "https://simply-jekyll-ubergm.c9.io"
+
+email: email@email.com
+twitter_username: tweeter
+github_username: gethub
+
+markdown: kramdown
+includeFooter: false
